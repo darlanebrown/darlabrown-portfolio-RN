@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.fb642fdf.chunk.js",
-    "app.js.map": "/static/js/app.fb642fdf.chunk.js.map",
+    "app.js": "/static/js/app.d67f5984.chunk.js",
+    "app.js.map": "/static/js/app.d67f5984.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.c7a9e9fc.chunk.js": "/static/js/2.c7a9e9fc.chunk.js",
-    "static/js/2.c7a9e9fc.chunk.js.map": "/static/js/2.c7a9e9fc.chunk.js.map",
+    "static/js/2.e3647e5d.chunk.js": "/static/js/2.e3647e5d.chunk.js",
+    "static/js/2.e3647e5d.chunk.js.map": "/static/js/2.e3647e5d.chunk.js.map",
     "fonts/AntDesign.ttf": "/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
@@ -24,11 +24,11 @@
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.c7a9e9fc.chunk.js.LICENSE.txt": "/static/js/2.c7a9e9fc.chunk.js.LICENSE.txt",
-    "static/media/Darla-animated.jpg": "/static/media/Darla-animated.c45b68d3.jpg",
+    "static/js/2.e3647e5d.chunk.js.LICENSE.txt": "/static/js/2.e3647e5d.chunk.js.LICENSE.txt",
+    "static/media/Darla-animation1.gif": "/static/media/Darla-animation1.dd56aba5.gif",
+    "static/media/Darla-drawing.png": "/static/media/Darla-drawing.4cecb95b.png",
     "static/media/background.jpeg": "/static/media/background.b37376d3.jpeg",
     "static/media/contact-me.jpg": "/static/media/contact-me.49676999.jpg",
-    "static/media/darla.jpg": "/static/media/darla.38142525.jpg",
     "static/media/portfolio-1.png": "/static/media/portfolio-1.b3b8ad0c.png",
     "static/media/portfolio-2.png": "/static/media/portfolio-2.f2c47e9e.png",
     "static/media/portfolio-3.png": "/static/media/portfolio-3.f84ab27a.png",
@@ -42,7 +42,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.c7a9e9fc.chunk.js",
-    "static/js/app.fb642fdf.chunk.js"
+    "static/js/2.e3647e5d.chunk.js",
+    "static/js/app.d67f5984.chunk.js"
   ]
 }
