@@ -6,7 +6,7 @@ const About = () => {
         <View style={styles.container}>
             <ScrollView>
                 <Image
-                    source={require('../../assets/images/darla.jpg')}
+                    source={require('../../assets/images/Darla-animation1.gif')}
                     width={400}
                     height={400}
                     style={{

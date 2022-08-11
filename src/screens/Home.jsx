@@ -4,6 +4,7 @@ import {
     StyleSheet,
     Text,
     View,
+    Platform
 } from 'react-native';
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
@@ -36,13 +37,27 @@ const Home = () => {
 
 export default Home;
 
+// const styles = StyleSheet.create({
+//     container: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+//     text: { fontSize: 30, color: '#fff', fontWeight: 'bold' },
+//     btn: {
+//         padding: 20,
+//         backgroundColor: '#00f',
+//         borderRadius: 4,
+//         marginTop: 100,
+//     },
+// });
 const styles = StyleSheet.create({
-    container: { flex: 1, alignItems: 'center', justifyContent: 'center' },
-    text: { fontSize: 30, color: '#fff', fontWeight: 'bold' },
+    container: { 
+        flex: 1,
+        alignItems: 'center', 
+        justifyContent: 'center',
+        marginTop: 100, },
+    text: { fontSize: Platform. OS === "web"? 30 : 20, color: 'black', fontWeight: 'bold' },
     btn: {
-        padding: 20,
+        padding: 5,
         backgroundColor: '#00f',
         borderRadius: 4,
-        marginTop: 100,
     },
 });
+

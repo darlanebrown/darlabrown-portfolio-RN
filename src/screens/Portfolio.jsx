@@ -106,6 +106,7 @@ const Portfolio = () => {
           <FlatList
             data={images}
             renderItem={renderItem}
+            keyExtractor={item => item.id}
             // windowSize={width}
             // sliderWidth={width}
             // itemWidth={width}

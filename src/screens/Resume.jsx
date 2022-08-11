@@ -22,7 +22,7 @@ const Resume = () => {
         <ScrollView style={styles.container}>
             <View style={[styles.row]}>
                 <Image
-                    source={require('../../assets/images/Darla-animated.jpg')}
+                    source={require('../../assets/images/Darla-drawing.png')}
                     width={100}
                     height={100}
                     resizeMode="contain"
@@ -122,7 +122,7 @@ const Resume = () => {
                     React-Native and React apprentice
                 </Text>
                 <Text style={styles.expCompany}>
-                    at Bitwise/Alpha-works Apprenticeship
+                    at Butwise/Alpha-works Apprenticeship
                 </Text>
                 <Text style={styles.expDuration}>2021 to Present</Text>
                 <Text>
@@ -146,7 +146,7 @@ const Resume = () => {
             </View>
             <View style={styles.expContainer}>
                 <Text style={styles.expTitle}>
-                    Women Who Code San Francisco/Oakland
+                    Women Who Code 
                 </Text>
                 <Text style={styles.expCompany}>Bay Area CA Region</Text>
                 <Text style={styles.expDuration}>2019 to Present</Text>
@@ -176,27 +176,27 @@ const Resume = () => {
                 <FontAwesome5
                     name="facebook"
                     size={24}
-                    onPress={() => Linking.openURL('https://www.facebook.com/darla.brown.50')}
+                    onPress={() => Linking.openURL('https://www.facebook.com/')}
                 />
                 <FontAwesome5
                     name="instagram"
                     size={24}
-                    onPress={() => Linking.openURL('https://www.instagram.com/darlanebrown26')}
+                    onPress={() => Linking.openURL('https://www.instagram.com/')}
                 />
                 <FontAwesome5
                     name="twitter"
                     size={24}
-                    onPress={() => Linking.openURL('https://www.twitter.com/@darlanebrown26')}
+                    onPress={() => Linking.openURL('https://www.twitter.com/')}
                 />
                 <FontAwesome5
                     name="github"
                     size={24}
-                    onPress={() => Linking.openURL('https://github.com/darlanebrown')}
+                    onPress={() => Linking.openURL('https://github.com/')}
                 />
                 <FontAwesome5
                     name="linkedin"
                     size={24}
-                    onPress={() => Linking.openURL('https://www.linkedin.com/in/darla-brown-b1383943')}
+                    onPress={() => Linking.openURL('https://www.linkedin.com/in/')}
                 />
             </View>
         </ScrollView>

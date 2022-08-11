@@ -52,8 +52,8 @@ const Contact = () => {
           <TextInput style={styles.input} value={name} onChangeText={setName} />
           <Text style={styles.label}>Your email</Text>
           <TextInput style={styles.input} />
-          <Text style={styles.label}>Subject</Text>
-          <TextInput style={styles.input} value={subject} onChangeText={setSubject} />
+          {/* <Text style={styles.label}>Subject</Text> */}
+          {/* <TextInput style={styles.input} value={subject} onChangeText={setSubject} /> */}
           <Text style={styles.label}>Your message</Text>
           <TextInput style={styles.input} value={message} onChangeText={setMessage} />
           <Pressable style={styles.btn} onPress={sendContactForm}>
